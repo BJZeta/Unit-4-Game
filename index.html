@@ -17,12 +17,12 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 bg-dark text-white text-center">
+            <div class="col-md-9 bg-dark text-white text-center">
                 <h1>Guess!That!Number!</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 bg-warning">
+            <div class="col-md-9 bg-warning">
                 <p>You will be given a random number at the start of the game.</p>
                 <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points your total score.</p>
                 <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8 bg-success">
+            <div class="col-md-5 bg-success text-center">
                 <h2 id="random-number"></h2>
             </div>
             <div class="col-md-3 bg-primary">
@@ -40,17 +40,25 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <img id="blue-crystal" src="assets/images/blue.jpg" alt="blue-crystal" class="w-100">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <img id="purple-crystal" src="assets/images/purple.jpg" alt="purple-crystal" class="w-100">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <img id="red-crystal" src="assets/images/red.jpg" alt="red-crystal" class="w-100">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <img id="yellow-crystal" src="assets/images/yellow.jpg" alt="yellow-crystal" class="w-100">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bg-info text-white">
+                <h3>YOU'RE TOTAL SCORE IS:</h3>
+            </div>
+            <div class="col-md-3 offset-md-2 bg-info text-white text-center">
+                <h3 id="total-score">0</h3>
             </div>
         </div>
 
