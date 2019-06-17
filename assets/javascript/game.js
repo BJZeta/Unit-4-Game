@@ -23,11 +23,6 @@ $(document).ready(function () {
     $("#random-number").text(randomNum);
     $("#wins").text("Wins: " + wins);
     $("#loses").text("Loses: " + loses);
-    $("#purple-crystal").attr("value", purple);
-    $("#red-crystal").attr("value", red);
-    $("#blue-crystal").attr("value", blue);
-    $("#yellow-crystal").attr("value", yellow);
-    // $("#total-score").attr("value", playerScore);
     $("#total-score").text(playerScore);
 
     $("#purple-crystal").on("click", function () {
@@ -57,13 +52,6 @@ $(document).ready(function () {
         $("#total-score").text(playerScore);
         checkScore();
     });
-
-
-    // if (playerScore > randomNum) {
-    //     loses = loses + 1;
-    //     $("#loses").text("Loses: " + loses);
-    //     console.log("hello")
-    // }
 
     var checkScore = function () {
         if (playerScore > randomNum) {
